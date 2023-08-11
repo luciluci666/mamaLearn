@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(226, 43, 180);
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    align-items: center;
+}
+.headerNavs {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navItem {
+    text-decoration: none;
+}
+
+.redFont{
+    color: brown;
+}
